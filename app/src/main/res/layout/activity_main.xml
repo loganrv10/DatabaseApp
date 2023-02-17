@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".MainActivity"
+  >
+
+  <EditText
+    android:id="@+id/tv_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="Enter your name"
+    android:padding="20dp"
+    />
+
+  <EditText
+    android:id="@+id/tv_designation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="Enter your designation"
+    android:padding="20dp"
+    />
+
+
+  <EditText
+    android:id="@+id/tv_experience"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="Enter your Experience"
+    android:padding="20dp"
+    />
+
+   <Button
+     android:id="@+id/btn_camera"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"
+     android:padding="20dp"
+     android:text="Click Profile photo"/>
+
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:weightSum="2"
+      android:layout_margin="10dp"
+      android:orientation="horizontal">
+
+      <Button
+        android:id="@+id/btn_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="Preview"
+        android:layout_weight="1"/>
+      <Button
+        android:id="@+id/btn_summit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="summit"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>
+</layout>
